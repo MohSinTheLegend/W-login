@@ -226,7 +226,7 @@ def Zeek():
     time.sleep(0.05)
     print"\033[1;94m[10]\x1b[1;94mpoland"
     time.sleep(0.05)
-    print '\033[1;93m[11]\x1b[1;95Pakistan'
+    print '\033[1;93m[11]\x1b[1;95mPakistan'
     time.sleep(0.05)
     print"\033[1;94m[12]\x1b[1;95mindonesia"
     time.sleep(0.05)
