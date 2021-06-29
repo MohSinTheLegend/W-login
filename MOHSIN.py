@@ -26,7 +26,7 @@ try:
 except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
-    os.system('Then type: python2 boss')
+    os.system('Then type: python2 MOHSIN.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -101,47 +101,58 @@ print  """
 \033[1;94m |▊▒▒▒▒▒▒╲▔▕▍▔╱▒▒▒▒▒
 \033[1;93m |▊▒▒▒╭╱╱▒╋╋╋╋▒╲╲╮▒▒
 \033[1;95m |▊▒▒▒╰╯╯▒╲▂▂╱▒╰╰╯▒▒​
-█] 1⃣0⃣%MOHSIN...
-​██] 2⃣0⃣%​  
-​███] 3⃣0⃣%​ 
-​████] 4⃣0⃣%​
-​█████] 5⃣0⃣%​
-​██████] 6⃣0⃣%​
-​███████] 7⃣0⃣%​
-​████████] 8⃣0⃣%​ 
-​█████████] 9⃣0⃣%​ 
-​██████████] 1⃣0⃣0⃣%​     
-╦╦╦╦╦╦▄▀▀▀▀▀▀▄╦╦╦╦╦╦
-▒▓▒▓▒█╗░░▐░░░╔█▒▓▒▓▒
-▒▓▒▓▒█║░░▐▄▄░║█▒▓▒▓▒
-▒▓▒▓▒█╝░░░░░░╚█▒▓▒▓▒
-╩╩╩╩╩╩▀▄▄▄▄▄▄▀╩╩╩╩╩╩
+\033[1;91m █] 1⃣0⃣%MOHSIN...
+\033[1;92m ​██] 2⃣0⃣%​  
+\033[1;94m ​███] 3⃣0⃣%​ 
+\033[1;94m ​████] 4⃣0⃣%​
+\033[1;97m ​█████] 5⃣0⃣%​
+\033[1;93m ​██████] 6⃣0⃣%​
+\033[1;95m ​███████] 7⃣0⃣%​
+\033[1;91m ​████████] 8⃣0⃣%​ 
+\033[1;92m ​█████████] 9⃣0⃣%​ 
+\033[1;94m ​██████████] 1⃣0⃣0⃣%​     
+\033[1;91m ╦╦╦╦╦╦▄▀▀▀▀▀▀▄╦╦╦╦╦╦
+\033[1;92m ▒▓▒▓▒█╗░░▐░░░╔█▒▓▒▓▒
+\033[1;92m ▒▓▒▓▒█║░░▐   ░║█▒▓▒▓▒
+\033[1;94m ▒▓▒▓▒█╝░░░░░░╚█▒▓▒▓▒
+\033[1;97m ╩╩╩╩╩╩▀▄▄▄▄▄▄▀╩╩╩╩╩╩
 """
 
 ####Logo####
 
 logo1 = """
-\033[1;91m ███╗░░░███╗░█████╗░██╗░░██╗░██████╗██╗███╗░░██╗
-\033[1;92m ████╗░████║██╔══██╗██║░░██║██╔════╝██║████╗░██║
-\033[1;94m ██╔████╔██║██║░░██║███████║╚█████╗░██║██╔██╗██║
-\033[1;97m ██║╚██╔╝██║██║░░██║██╔══██║░╚═══██╗██║██║╚████║
-\033[1;93m ██║░╚═╝░██║╚█████╔╝██║░░██║██████╔╝██║██║░╚███║
-\033[1;95m ╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░╚══╝
+\033[1;91m 888b     d888  .d88888b.  888    888  .d8888b. 8888888 888b    888 
+\033[1;92m 8888b   d8888 d88P" "Y88b 888    888 d88P  Y88b  888   8888b   888 
+\033[1;94m 88888b.d88888 888     888 888    888 Y88b.       888   88888b  888 
+\033[1;97m 888Y88888P888 888     888 8888888888  "Y888b.    888   888Y88b 888 
+\033[1;93m 888 Y888P 888 888     888 888    888     "Y88b.  888   888 Y88b888 
+\033[1;95m 888  Y8P  888 888     888 888    888       "888  888   888  Y88888 
+\033[1;96m 888   "   888 Y88b. .d88P 888    888 Y88b  d88P  888   888   Y8888 
+\033[1;98m 888       888  "Y88888P"  888    888  "Y8888P" 8888888 888    Y888    
+      **             ***** *               *****  * 
+     *****          ******  *             ******  *   
+    *  ***         **   *  *             **   *  *    
+       ***        *    *  *             *    *  *     
+      *  **           *  *                  *  *      
+      *  **          ** **                 ** **      
+     *    **         ** **                 ** **      
+     *    **         ** **               **** **      
+    *      **        ** **              * *** **      
+    *********        ** **                 ** **      
+   *        **       *  **            **   ** **      
+   *        **          *            ***   *  *       
+  *****      **     ****           *  ***    *        
+ *   ****    ** *  *  *************    ******         
+*     **      **  *     *********        ***          
+*                 *                                   
+ **                **   
+\033[1;93m MOHSIN IT'X NOT ONLY NAME ITS BRAND BABY
 
-\033[1;91m ▄▀█ █░░ █
-\033[1;92m █▀█ █▄▄ █
-
-\033[1;97m █▀ █▄█ █▀▀ █▀█
-\033[1;93m ▄█ ░█░ █▄▄ █▄█
-
-╒════════════════==========══╕
-\033[1;97mFACEBOOK: MOHSIN ALI
- \033[1;91mNOTE:DONT' TRY TO COPY
- \033[1;92mDEV•••MOHSIN ALI
- \033[1;92m WhatsApp••••03063112***
-╘══════════════==========════╛
-
-
+--------------------------------------------------
+ \033[1;91m(√)\033[1;94m Coded   : MOHSIN ALI
+\033[1;95m(!)\033[1;95m WhatsApp: 03063112***
+\033[1;93m(°)\033[1;92m Fb Page  : https://m.facebook.com/MohsinAliOfficial 
+--------------------------------------------------
 """
 logo2 = """
 \033[1;95m┈┈┈╱▔▔▔▔▔▔╲┈╭━━━╮┈┈ Fuck YOUR System.
@@ -151,13 +162,13 @@ logo2 = """
 \033[1;97m┈┈▕┈┈┈┃┃┈┈┈▏━╯┈┈┈┈┈
 \033[1;95m┈┈▕┈┈┈╰╯┈┈┈▏┈┈┈┈┈┈┈
 \033[1;95m┈┈▕╱╲╱╲╱╲╱╲▏┈┈┈┈┈┈┈
-\033[1;94m
-\033[1;91m ▀▀█▀▀ ▒█▀▀▀ ░█▀▀█ ▒█▀▄▀█ 
-\033[1;92m ░▒█░░ ▒█▀▀▀ ▒█▄▄█ ▒█▒█▒█ 
-\033[1;94m ░▒█░░ ▒█▄▄▄ ▒█░▒█ ▒█░░▒█
-\033[1;92m
-\033[1;93m █▀ █▄█ █▀▀ █▀█
-\033[1;95m ▄█ ░█░ █▄▄ █▄█
+\~ $
+ _
+|_||  |
+| ||__|__
+ __ _       ___ _ \ /
+/  / \| ||\| | |_) Y
+\__\_/|_|| | | | \ |
 
 """
 CorrectUsername = "MOHSIN"
@@ -165,9 +176,9 @@ CorrectPassword = "SYCO"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;97m\x1b[1;92mDEVOLPER USERNAME\x1b[1;92m▬▬▬▬▬▬►\x1b[1;94m")
+    username = raw_input("\033[1;97m\x1b[1;92mDEVOLPER USERNAME\x1b[1;92m▬▬▬▬▬▬►\x1b[1;92m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m \x1b[1;92mMOHSIN PASSWORD \x1b[1;93m▬▬▬▬▬▬►\x1b[1;95m")
+    	password = raw_input("\033[1;97m \x1b[1;92mMOHSIN PASSWORD \x1b[1;93m▬▬▬▬▬▬►\x1b[1;92m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:SOMI
 	    time.sleep(2)
@@ -207,27 +218,27 @@ def Zeek():
     print logo1
     print"\033[1;94m[1]\x1b[1;93m Bangladesh"
     time.sleep(0.05)
-    print"\033[1;94m[2]\x1b[1;93mUSA"
+    print"\033[1;90m[2]\x1b[1;93mUSA"
     time.sleep(0.05)
-    print"\033[1;94m[3]\x1b[1;93mU.k"
+    print"\033[1;91m[3]\x1b[1;93mU.k"
     time.sleep(0.05)
-    print"\033[1;94m[4]\x1b[1;93mIndia"
+    print"\033[1;92m[4]\x1b[1;93mIndia"
     time.sleep(0.05)
     print"\033[1;94m[5]\x1b[1;93mBrazil"
     time.sleep(0.05)
-    print"\033[1;94m[6]\x1b[1;94mJapan"
+    print"\033[1;93m[6]\x1b[1;94mJapan"
     time.sleep(0.05)
     print"\033[1;94m[7]\x1b[1;94mkorea"
     time.sleep(0.05)
-    print"\033[1;94m[8]\x1b[1;94mitly"
+    print"\033[1;95m[8]\x1b[1;94mitly"
     time.sleep(0.05)
     print"\033[1;94m[9]\x1b[1;94mspain"
     time.sleep(0.05)
-    print"\033[1;94m[10]\x1b[1;94mpoland"
+    print"\033[1;96m[10]\x1b[1;94mpoland"
     time.sleep(0.05)
-    print '\033[1;93m[11]\x1b[1;95mPakistan'
+    print '\033[1;97m[11]\x1b[1;95mPakistan'
     time.sleep(0.05)
-    print"\033[1;94m[12]\x1b[1;95mindonesia"
+    print"\033[1;98m[12]\x1b[1;95mindonesia"
     time.sleep(0.05)
     print"\033[1;94m[13]\x1b[1;95mGreece"
     time.sleep(0.05)
@@ -689,7 +700,7 @@ def action():
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\033[1;96m[24Hours] ' + k + c + user + '  》  ' + pass1+'\n'
+					print '\033[1;91m[24Hours] ' + k + c + user + '  》  ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'-•◈•-'+pass1+'\n')
 					cps.close()
@@ -706,7 +717,7 @@ def action():
  				        oks.append(c+user+pass2)
  				    else:
  				        if 'www.facebook.com' in q['error_msg']:
- 					        print '\033[1;96m[24Hours] ' + k + c + user + '  》  ' + pass2+'\n'
+ 					        print '\033[1;97m[24Hours] ' + k + c + user + '  》  ' + pass2+'\n'
  					        cps = open('save/checkpoint.txt', 'a')
  					        cps.write(k+c+user+'-•◈•-'+pass2+'\n')
  					        cps.close()
@@ -740,7 +751,7 @@ def action():
  				                        oks.append(c+user+pass4)
  				                    else:
  				                        if 'www.facebook.com' in q['error_msg']:
- 					                        print '\033[1;96m[24Hours] ' + k + c + user + '  》  ' + pass4+'\n'
+ 					                        print '\033[1;93m[24Hours] ' + k + c + user + '  》  ' + pass4+'\n'
  					                        cps = open('save/checkpoint.txt', 'a')
  					                        cps.write(k+c+user+'-•◈•-'+pass4+'\n')
  					                        cps.close()
